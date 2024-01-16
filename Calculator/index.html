@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="display">
+                    <input type="text" placeholder="0" name="display" id="display">
+                </div>
+                <div>
+                    <input type="button" value="AC" class="dis" onclick="clearDisplay() "> <!-- delete all-->
+                    <input type="button" value="DE" class="dis" onclick="removeLast()">
+                    <input type="button" value="." class="dis" onclick="thefunction('.') ">
+                    <input type="button" value="/" class="dis" onclick="thefunction('/') ">
+
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="thefunction(7) ">
+                    <input type="button" value="8" onclick="thefunction(8) ">
+                    <input type="button" value="9" onclick=" thefunction(9)">
+                    <input type="button" value="*" class="dis" onclick=" thefunction('*')">
+
+                </div>
+                <div>
+                    <input type="button" value="4" onclick="thefunction(4) ">
+                    <input type="button" value="5" onclick="thefunction(5) ">
+                    <input type="button" value="6" onclick="thefunction(6) ">
+                    <input type="button" value="-" class="dis" onclick="thefunction('-') ">
+
+                </div>
+                <div>
+                    <input type="button" value="1" onclick="thefunction(1) ">
+                    <input type="button" value="2" onclick="thefunction(2) ">
+                    <input type="button" value="3" onclick="thefunction(3) ">
+                    <input type="button" value="+" class="dis" onclick="thefunction('+') ">
+
+                </div>
+                <div>
+                    <input type="button" value="0" onclick="thefunction(0) ">
+                    <input type="button" value="=" onclick="calculate(display.value)"
+                        style="width: 145px; background-color: rgb(240, 79, 11);">
+
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

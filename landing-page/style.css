@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;1000&family=Jomhuria&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*the first */
+header {
+    width: 100%;
+    height: 50px;
+
+    background: linear-gradient(to right, #924848 0%, #5b2f2f 50%, #682727 70%, #531313 100%);
+    color: white;
+    position: fixed;
+    z-index: 999;
+    /*for the header stay observed when i scroll*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    font-weight: 700;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+.logo a {
+    padding-left: 10px;
+    color: white;
+}
+
+.logo a:hover {
+    color: blueviolet;
+
+}
+
+.navigation {
+    color: white;
+
+}
+
+/*second*/
+
+.header2 {
+    padding: 20px 200px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(167, 182, 196);
+    color: black;
+
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.header2 .title {
+    font-weight: 700;
+    font-size: medium;
+}
+
+.header2 .sections a {
+    text-decoration: none;
+    padding-left: 30px;
+    color: black;
+    font-weight: 400;
+    font-size: medium;
+
+}
+
+.header2 .sections a:hover {
+    color: white;
+}
+
+
+
+.buy {
+    background-color: rgb(235, 71, 6);
+    color: white;
+    padding: 12px 5px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+
+    transition: 0.7s ease;
+    /*like smooth*/
+}
+
+.buy:hover {
+    transform: scale(1.1);
+    color: darkcyan;
+}
+
+.search {
+    cursor: pointer;
+    background-color: black;
+    padding: 12px 10px;
+    color: white;
+}
+
+.search:hover {
+    color: white;
+
+}
+
+/*third*/
+img {
+    width: 100%;
+    height: 100%;
+    background: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.imagecontainer {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 700;
+
+    text-shadow: 2px 4px 4px;
+    letter-spacing: 2px;
+    border-left: 5px solid red;
+}
+
+.h3 {
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+/*fourth*/
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 30px;
+
+}
+
+li {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/*fifth*/
+.services {
+    text-align: center;
+    padding-top: 10px;
+    font-style: oblique;
+    color: rgb(13, 58, 58);
+}
+
+.titre {
+    display: flex;
+    /*this is a block element and i wand to center it*/
+    justify-content: center;
+    color: #23156b;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /*for separate the titre and the content*/
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /*if the element beside each other*/
+    flex-wrap: wrap;
+    /*beacause when is no space for the others so they will they move to a new line*/
+
+
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    box-shadow: 0 5px 40px rgba(1 1 1 /15%);
+    /* i dont want a shadow in top and buttom so i write a 0 and i want a shadow for the right so i write 5 px and for the blur i write 40px*/
+    border-radius: 10px;
+    padding: 25px;
+    /*space inside the elements*/
+    margin: 15px;
+    /*space between elements*/
+    transition: 0.7s ease;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.icon {
+    color: #23156b;
+    font-size: 30px;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    text-decoration: none;
+}
+
+.info h3 {
+    color: #2e216e;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.info a {
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    color: #531313;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
+}
+
+.pages {
+    background: linear-gradient(to right, #924848 0%, #5b2f2f 50%, #682727 70%, #531313 100%);
+}
+
+.title {
+    text-align: center;
+}
+
+.stories {
+    padding-left: 50px;
+}
+
+.pamagat {
+    position: relative;
+    padding-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-bottom: #682727 solid 2px;
+    background: linear-gradient(to right, #e0e0e0, #333333);
+    font-size: larger;
+    font-weight: 700;
+
+}
+
+.par {
+    width: 400px;
+    justify-content: space-between;
+    flex: 1;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.succ {
+    text-decoration: none;
+    color: #23156b;
+    font-weight: 700;
+}
+
+.cards-contact {
+    background-color: #d5bcbc;
+}
+
+@media (max-width: 1023px) {
+    header {
+        padding: 10px;
+    }
+
+    .header2 {
+        padding: 100px;
+    }
+
+    .header2 .title {
+        font-size: small;
+
+    }
+
+    .header2 .sections a {
+        font-size: 0.8em;
+        padding-left: 3px;
+
+    }
+
+    .buy {
+        padding: 5px 5px;
+    }
+
+    .search {
+        padding: 8px 5px;
+    }
+
+    .h2 {
+        font-size: 1em;
+        top: 40%;
+        left: 50%;
+    }
+
+    .h3 {
+        top: 50%;
+        left: 50%;
+    }
+
+    .title {
+        font-size: 1.5em;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .info h3 {
+        font-size: 1.2em;
+    }
+
+    .pamagat {
+        padding-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .par {
+        width: 100%;
+    }
+}
+
+@media (max-width:400px) {
+
+
+
+    .header2 .sections a {
+        padding: 3px 3px;
+        font-size: 0.5em;
+
+    }
+}
+
+@media (max-width:300px) {
+    .header2 {
+        padding: 130px;
+        flex-direction: row;
+    }
+
+    .header2 .sections a {
+        padding-bottom: 1px;
+        font-size: 0.1em;
+    }
+
+
+    .h2 {
+        font-size: 0.7em;
+        top: 50%;
+        left: 50%;
+    }
+
+    .h3 {
+        font-size: 0.5em;
+        top: 55%;
+        left: 50%;
+    }
+}

@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;1000&family=Jomhuria&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    padding: 10px 200px;
+
+
+
+}
+
+.Aya {
+    color: blue;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: blue;
+
+    margin-right: 30px;
+}
+
+header a:hover {
+    color: blueviolet;
+}
+
+.abou {
+    color: black;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.content .hello {
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 40px;
+    padding-left: 50px;
+
+
+}
+
+.abou .aboutme {
+    width: 400px;
+    padding-left: 50px;
+
+    font-weight: 300;
+    font-size: small;
+    line-height: 60px;
+}
+
+.container {
+    align-items: flex-end;
+    display: flex;
+}
+
+.container img {
+    margin-left: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.items {
+    letter-spacing: 5px;
+
+}
+
+
+
+.skills {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+}
+
+.title h2 {
+    color: #333;
+
+}
+
+.ski {
+    margin-top: 20px;
+
+
+}
+
+.lang,
+.ski li {
+    list-style-type: none;
+    font-size: 18px;
+    margin-bottom: 10px
+}
+
+.lang {
+    color: #333;
+    font-weight: bold;
+}
+
+.lang,
+.ski p {
+    margin-left: 20px;
+}
+
+.ski li {
+    color: brown;
+}
+
+.skills p {
+    margin-bottom: 15px;
+}
+
+ul {
+    padding: 0;
+}
+
+
+.projects {
+    margin-top: 50px;
+}
+
+.tit {
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.prone {
+    border-radius: 5px;
+    margin-left: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    width: max-content;
+    box-sizing: border-box;
+    transition: 0.7s ease;
+    text-align: center;
+}
+
+.prone img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.subtitle-project {
+    box-sizing: border-box;
+    margin-bottom: 10px
+}
+
+.browser {
+    color: rgb(79, 79, 149);
+    transition: 0.5s ease;
+}
+
+.browser:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.prone:hover {
+    transform: scale(1.1);
+}
+
+
+
+.content {
+
+    display: flex;
+    justify-content: center;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    border-radius: 5px;
+    margin-left: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    width: max-content;
+    box-sizing: border-box;
+    transition: 0.7s ease;
+    text-align: center;
+    box-shadow: 0 5px 40px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding: 25px;
+
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.titre {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    padding-top: 30px;
+}
+
+.icon {
+    color: #23156b;
+    font-size: 30px;
+    text-align: center;
+}
+
+.info a {
+    text-decoration: none;
+}
+
+.info {
+    padding: 10px;
+    margin: 10px;
+}
+
+.contme {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.add {
+    font-weight: 700;
+    color: black;
+}
+
+.add:hover {
+    color: #23156b;
+}
+
+.resume {
+    text-align: center;
+}
+
+.resume .link {
+    text-decoration: none;
+    color: #23156b;
+    font-weight: 700;
+    font-size: large;
+    padding: 10px;
+    margin: 10px;
+}
+
+.myresume {
+    font-weight: 700;
+    font-size: large;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.myresume .abtn {
+    border-radius: 10px;
+    transition: 0.7s ease;
+    text-align: center;
+    margin-top: 10px;
+    padding: 3px;
+
+}
+
+.myresume .abtn:hover {
+    transform: scale(1.1);
+}
+
+.link:hover {
+    cursor: pointer;
+    color: blueviolet;
+
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+footer p a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: rgb(188, 130, 243);
+    cursor: pointer;
+}
+
+@media(max-width:400px) {
+    header {
+        padding: 5px 0px;
+    }
+
+    .align {
+        flex-wrap: nowrap;
+    }
+
+
+
+    .content {
+        flex-wrap: nowrap;
+    }
+
+}
+
+@media(max-width:500px) {
+    header {
+        padding: 3px 0px;
+    }
+
+    .align {
+        flex-wrap: nowrap;
+    }
+
+    .content {
+        flex-wrap: nowrap;
+    }
+}
+
+@media(max-width:1024px) {
+    header {
+        padding: 3px 20px;
+    }
+}
+
+@media(max-width:900px) {
+    header {
+        padding: 3px 0px;
+    }
+
+    .content {
+        flex-wrap: nowrap;
+    }
+}
+
+
+@media(max-width:600px) {
+    .align {
+        flex-wrap: nowrap;
+    }
+}
